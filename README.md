@@ -40,7 +40,7 @@ Next use library:
 ```js
 const value = 'lorem  ipsum dolor  ';
 
-const formattedValue = xTrim(value);
+const formattedValue = xTrim(value); // 'lorem ipsum dolor'
 ```
 
 ### Params
