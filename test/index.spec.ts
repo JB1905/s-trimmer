@@ -1,10 +1,10 @@
-import xTrim from '../src';
+import sTrimmer from '../src';
 
-describe('xTrim', () => {
-  it('should format spaces', () => {
+describe('sTrimmer', () => {
+  it('should remove unneeded spaces', () => {
     const input = 'lorem  ipsum dolor  ';
 
-    const value = xTrim(input);
+    const value = sTrimmer(input);
 
     expect(value).toBe('lorem ipsum dolor');
   });

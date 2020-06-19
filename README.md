@@ -1,7 +1,7 @@
-# x-trim
+# s-trimmer
 
-[![NPM version](http://img.shields.io/npm/v/x-trim.svg?style=flat-square)](https://www.npmjs.com/package/x-trim)
-[![NPM downloads](http://img.shields.io/npm/dm/x-trim.svg?style=flat-square)](https://www.npmjs.com/package/x-trim)
+[![NPM version](http://img.shields.io/npm/v/s-trimmer.svg?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
+[![NPM downloads](http://img.shields.io/npm/dm/s-trimmer.svg?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
 
 ## About
 
@@ -12,13 +12,13 @@ Format spaces from the left and right end of a string and between strings
 First, install the library in your project by npm:
 
 ```sh
-$ npm install x-trim
+$ npm install s-trimmer
 ```
 
 Or Yarn:
 
 ```sh
-$ yarn add x-trim
+$ yarn add s-trimmer
 ```
 
 ## Getting Started
@@ -26,13 +26,13 @@ $ yarn add x-trim
 **Connect libary to project using ES6 import:**
 
 ```js
-import xTrim from 'x-trim';
+import sTrimmer from 's-trimmer';
 ```
 
 **Or CommonJS:**
 
 ```js
-const xTrim = require('x-trim');
+const sTrimmer = require('s-trimmer');
 ```
 
 Next use library:
@@ -40,7 +40,7 @@ Next use library:
 ```js
 const value = 'lorem  ipsum dolor  ';
 
-const formattedValue = xTrim(value); // 'lorem ipsum dolor'
+const formattedValue = sTrimmer(value); // 'lorem ipsum dolor'
 ```
 
 ### Params

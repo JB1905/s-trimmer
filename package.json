@@ -1,11 +1,11 @@
 {
-  "name": "x-trim",
+  "name": "s-trimmer",
   "version": "1.0.0",
-  "description": "Format spaces between class names",
+  "description": "Format spaces from the left and right end of a string and between strings",
   "author": "Jakub Biesiada",
   "license": "MIT",
-  "main": "lib/x-trim.cjs.js",
-  "module": "lib/x-trim.esm.js",
+  "main": "lib/s-trimmer.cjs.js",
+  "module": "lib/s-trimmer.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
@@ -18,19 +18,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JB1905/x-trim.git"
+    "url": "https://github.com/JB1905/s-trimmer.git"
   },
   "keywords": [
-    "format",
     "string",
-    "className",
+    "trim",
     "spaces",
-    "trim"
+    "start",
+    "end",
+    "between",
+    "format"
   ],
   "bugs": {
-    "url": "https://github.com/JB1905/x-trim/issues"
+    "url": "https://github.com/JB1905/s-trimmer/issues"
   },
-  "homepage": "https://github.com/JB1905/x-trim#readme",
+  "homepage": "https://github.com/JB1905/s-trimmer#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^8.0.1",
     "@types/jest": "^26.0.0",

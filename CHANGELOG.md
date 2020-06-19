@@ -1,7 +1,7 @@
-# x-trim Changelog
+# s-trimmer Changelog
 
 ## 1.0.0 (2020-06-19)
 
 #### New Feature
 
-- added `xTrim` function
+- added `sTrimmer` function

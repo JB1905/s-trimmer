@@ -1,5 +1,5 @@
-const xTrim = (value: string) => {
+const sTrimmer = (value: string) => {
   return value.trim().split(/\s+/).join(' ');
 };
 
-export default xTrim;
+export default sTrimmer;
