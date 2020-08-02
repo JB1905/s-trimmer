@@ -1,7 +1,11 @@
-# s-trimmer
+# [s-trimmer](https://github.com/jb1905/s-trimmer)
 
-[![NPM version](http://img.shields.io/npm/v/s-trimmer.svg?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
-[![NPM downloads](http://img.shields.io/npm/dm/s-trimmer.svg?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
+[![NPM version](http://img.shields.io/npm/v/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
+[![NPM downloads](http://img.shields.io/npm/dm/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
+[![NPM license](https://img.shields.io/npm/l/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
+[![Codecov](https://img.shields.io/codecov/c/github/JB1905/s-trimmer?style=flat-square)](https://codecov.io/gh/JB1905/s-trimmer)
+[![Travis](https://img.shields.io/travis/JB1905/s-trimmer?style=flat-square)](https://travis-ci.org/JB1905/s-trimmer)
+[![Bundle size](https://img.shields.io/bundlephobia/min/s-trimmer?style=flat-square)](https://bundlephobia.com/result?p=s-trimmer)
 
 ## About
 
