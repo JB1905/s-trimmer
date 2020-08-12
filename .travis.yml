@@ -10,5 +10,10 @@ script:
   - yarn test
   - bash <(curl -s https://codecov.io/bash)
 
-after_success:
-  - npm run semantic-release
+jobs:
+  include:
+    - stage: release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: npx semantic-release
