@@ -1,4 +1,4 @@
-# [s-trimmer](https://github.com/jb1905/s-trimmer)
+# [s-trimmer](https://github.com/JB1905/s-trimmer)
 
 [![NPM version](http://img.shields.io/npm/v/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
 [![NPM downloads](http://img.shields.io/npm/dm/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
