@@ -11,14 +11,9 @@
 
 Format spaces from the left and right end of a string and between strings
 
-### Similar Projects
+### Alternatives
 
-Remove spaces from text:
 - [trim](https://www.npmjs.com/package/trim/) by [tjholowaychuk](https://www.npmjs.com/~tjholowaychuk/)
-
-Remove spaces from class names:
-- [classnames](https://github.com/JedWatson/classnames/) by [Jed Watson](https://github.com/JedWatson/)
-- [clsx](https://github.com/lukeed/clsx/) by [Luke Edwards](https://github.com/lukeed/)
 
 ## How to Install
 
