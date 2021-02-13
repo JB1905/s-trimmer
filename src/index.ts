@@ -4,7 +4,7 @@ export const trimLeft = trimStart;
 export const trimEnd = (value: string) => value.replace(/\s+$/, '');
 export const trimRight = trimEnd;
 
-export const trimBetween = (value: string) => value.replace(/\d+\*s+/g, ' ');
+export const trimBetween = (value: string) => value.split(/\s/);
 export const trimCenter = trimBetween;
 
 const sTrimmer = (value: string) => trimBetween(trimEnd(trimStart(value)));
