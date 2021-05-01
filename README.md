@@ -59,6 +59,7 @@ import sTrimmer, {
 ```js
 const sTrimmer = require('s-trimmer').default;
 const {
+  trim,
   trimStart,
   trimLeft,
   trimEnd,
@@ -70,12 +71,13 @@ const {
 
 Next use library:
 
-**sTrimmer**
+**sTrimmer - default export, (alias trim) - named export**
 
 ```js
 const value = '    lorem  ipsum dolor  ';
 
-const formattedValue = sTrimmer(value); // 'lorem ipsum dolor'
+sTrimmer(value); // 'lorem ipsum dolor'
+trim(value); // 'lorem ipsum dolor'
 ```
 
 **trimStart (alias trimLeft)**
