@@ -20,7 +20,7 @@ Remove spaces from text:
 - [trim from String object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
 - [trim](https://www.npmjs.com/package/trim/) by [tjholowaychuk](https://www.npmjs.com/~tjholowaychuk/)
 
-Remove spaces from class names:
+Remove spaces from class names (one of the many features):
 
 - [classnames](https://github.com/JedWatson/classnames/) by [Jed Watson](https://github.com/JedWatson/)
 - [clsx](https://github.com/lukeed/clsx/) by [Luke Edwards](https://github.com/lukeed/)
