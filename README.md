@@ -57,15 +57,15 @@ import sTrimmer, {
 **Or CommonJS:**
 
 ```js
-const sTrimmer,
-  {
-    trimStart,
-    trimLeft,
-    trimEnd,
-    trimRight,
-    trimBetween,
-    trimCenter,
-  } = require('s-trimmer');
+const sTrimmer = require('s-trimmer').default;
+const {
+  trimStart,
+  trimLeft,
+  trimEnd,
+  trimRight,
+  trimBetween,
+  trimCenter,
+} = require('s-trimmer');
 ```
 
 Next use library:
