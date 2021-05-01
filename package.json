@@ -1,6 +1,6 @@
 {
   "name": "s-trimmer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Format spaces from the left and right end of a string and between strings",
   "author": "Jakub Biesiada",
   "license": "MIT",

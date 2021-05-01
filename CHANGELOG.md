@@ -1,6 +1,6 @@
 # s-trimmer Changelog
 
-## 1.1.0 (2021-05-02)
+## 1.1.0 / 1.1.1 (2021-05-02)
 
 - added `trimStart`, `trimLeft`, `trimEnd`, `trimRight`, `trimBetween` & `trimCenter` functions
 
