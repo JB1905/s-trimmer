@@ -75,7 +75,7 @@ Next use library:
 ```js
 const value = '    lorem  ipsum dolor  ';
 
-const formattedValue = sTrimmer(value); // 'lorem ipsum dolor'
+sTrimmer(value); // 'lorem ipsum dolor'
 ```
 
 **trimStart (alias trimLeft)**
