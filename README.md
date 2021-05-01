@@ -44,21 +44,65 @@ $ yarn add s-trimmer
 **Connect libary to project using ES6 import:**
 
 ```js
-import sTrimmer from 's-trimmer';
+import sTrimmer, {
+  trimStart,
+  trimLeft,
+  trimEnd,
+  trimRight,
+  trimBetween,
+  trimCenter,
+} from 's-trimmer';
 ```
 
 **Or CommonJS:**
 
 ```js
-const sTrimmer = require('s-trimmer');
+const sTrimmer,
+  {
+    trimStart,
+    trimLeft,
+    trimEnd,
+    trimRight,
+    trimBetween,
+    trimCenter,
+  } = require('s-trimmer');
 ```
 
 Next use library:
 
+**sTrimmer**
+
 ```js
-const value = 'lorem  ipsum dolor  ';
+const value = '    lorem  ipsum dolor  ';
 
 const formattedValue = sTrimmer(value); // 'lorem ipsum dolor'
+```
+
+**trimStart (alias trimLeft)**
+
+```js
+const value = '    lorem  ipsum dolor  ';
+
+trimStart(value); // 'lorem  ipsum dolor  '
+trimLeft(value); // 'lorem  ipsum dolor  '
+```
+
+**trimEnd (alias trimRight)**
+
+```js
+const value = '    lorem  ipsum dolor  ';
+
+trimEnd(value); // '    lorem  ipsum dolor'
+trimRight(value); // '    lorem  ipsum dolor'
+```
+
+**trimBetween (alias trimCenter)**
+
+```js
+const value = '    lorem  ipsum dolor  ';
+
+trimBetween(value); // '    lorem ipsum dolor  '
+trimCenter(value); // '    lorem ipsum dolor  '
 ```
 
 ### Params
