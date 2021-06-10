@@ -9,5 +9,6 @@ export const trimBetween = (value: string) =>
 export const trimCenter = trimBetween;
 
 const sTrimmer = (value: string) => trimBetween(trimEnd(trimStart(value)));
+export const trim = sTrimmer;
 
 export default sTrimmer;

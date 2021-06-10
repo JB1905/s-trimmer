@@ -17,8 +17,10 @@ describe('sTrimmer', () => {
     ],
   ])('should remove unneeded spaces from: %s', (input, expected) => {
     const value = sTrimmer(input);
+    const aliasValue = trim(input);
 
     expect(value).toBe(expected);
+    expect(aliasValue).toBe(expected);
   });
 });
 
