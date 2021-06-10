@@ -45,6 +45,7 @@ $ yarn add s-trimmer
 
 ```js
 import sTrimmer, {
+  trim,
   trimStart,
   trimLeft,
   trimEnd,
