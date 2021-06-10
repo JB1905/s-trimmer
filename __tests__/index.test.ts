@@ -1,49 +1,76 @@
-import sTrimmer, { trim, trimStart, trimEnd, trimCenter } from '../src';
+import sTrimmer, {
+  trimStart,
+  trimLeft,
+  trimEnd,
+  trimRight,
+  trimBetween,
+  trimCenter,
+} from '../src';
 
 describe('sTrimmer', () => {
-  it.each(['lorem  ipsum dolor  ', '\n\rlorem  ipsum\t dolor  \n'])(
-    'should remove unneeded spaces from: %s',
-    (input) => {
-      const value = sTrimmer(input);
-      const aliasValue = trim(input)
+  it.each([
+    ['lorem  ipsum dolor  ', 'lorem ipsum dolor'],
+    ['\n\rSed  tristique\t in libero  \n', 'Sed tristique in libero'],
+    [
+      ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+      'Vivamus in cursus enim, nec accumsan lectus.',
+    ],
+  ])('should remove unneeded spaces from: %s', (input, expected) => {
+    const value = sTrimmer(input);
+    const aliasValue = trim(input);
 
-      const expected = 'lorem ipsum dolor'
-
-      expect(value).toBe(expected);
-      expect(aliasValue).toBe(expected);
-    }
-  );
+    expect(value).toBe(expected);
+    expect(aliasValue).toBe(expected);
+  });
 });
 
 describe('trimStart/trimLeft', () => {
   it.each([
     ['lorem  ipsum dolor  ', 'lorem  ipsum dolor  '],
-    ['\n\rlorem  ipsum\t dolor  \n', 'lorem  ipsum\t dolor  \n'],
-  ])('should remove unneeded spaces from: %s', (input, x) => {
+    ['\n\rSed  tristique\t in libero  \n', 'Sed  tristique\t in libero  \n'],
+    [
+      ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+      'Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+    ],
+  ])('should remove unneeded spaces from start of: %s', (input, expected) => {
     const value = trimStart(input);
+    const aliasValue = trimLeft(input);
 
-    expect(value).toBe(x);
+    expect(value).toBe(expected);
+    expect(aliasValue).toBe(expected);
   });
 });
 
 describe('trimEnd/trimRight', () => {
   it.each([
     ['lorem  ipsum dolor  ', 'lorem  ipsum dolor'],
-    ['\n\rlorem  ipsum\t dolor  \n', '\n\rlorem  ipsum\t dolor'],
-  ])('should remove unneeded spaces from: %s', (input, x) => {
+    ['\n\rSed  tristique\t in libero  \n', '\n\rSed  tristique\t in libero'],
+    [
+      ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+      ' Vivamus in     cursus enim,  nec  accumsan lectus.',
+    ],
+  ])('should remove unneeded spaces from end of: %s', (input, expected) => {
     const value = trimEnd(input);
+    const aliasValue = trimRight(input);
 
-    expect(value).toBe(x);
+    expect(value).toBe(expected);
+    expect(aliasValue).toBe(expected);
   });
 });
 
 describe('trimBetween/trimCenter', () => {
   it.each([
     ['lorem  ipsum dolor  ', 'lorem ipsum dolor  '],
-    ['\n\rlorem  ipsum\t dolor  \n', '\n\rlorem ipsum dolor  \n'],
-  ])('should remove unneeded spaces from: %s', (input, x) => {
-    const value = trimCenter(input);
+    ['\n\rSed  tristique\t in libero  \n', '\n\rSed tristique in libero  \n'],
+    [
+      ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+      ' Vivamus in cursus enim, nec accumsan lectus.         ',
+    ],
+  ])('should remove unneeded spaces from center of: %s', (input, expected) => {
+    const value = trimBetween(input);
+    const aliasValue = trimCenter(value);
 
-    expect(value).toBe(x);
+    expect(value).toBe(expected);
+    expect(aliasValue).toBe(expected);
   });
 });

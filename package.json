@@ -25,12 +25,12 @@
   },
   "keywords": [
     "string",
+    "format",
     "trim",
-    "spaces",
     "start",
+    "spaces",
     "end",
-    "between",
-    "format"
+    "between"
   ],
   "bugs": {
     "url": "https://github.com/JB1905/s-trimmer/issues"
