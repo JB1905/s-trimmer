@@ -1,11 +1,11 @@
 # [s-trimmer](https://github.com/JB1905/s-trimmer)
 
-[![NPM version](https://img.shields.io/npm/v/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
-[![NPM downloads](https://img.shields.io/npm/dm/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
-[![NPM license](https://img.shields.io/npm/l/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
-[![Codecov](https://img.shields.io/codecov/c/github/JB1905/s-trimmer?style=flat-square)](https://codecov.io/gh/JB1905/s-trimmer)
-[![Travis](https://img.shields.io/travis/com/JB1905/s-trimmer/main?style=flat-square)](https://travis-ci.com/JB1905/s-trimmer)
-[![Bundle size](https://img.shields.io/bundlephobia/min/s-trimmer?style=flat-square)](https://bundlephobia.com/result?p=s-trimmer)
+[![NPM version](https://flat.badgen.net/npm/v/s-trimmer)](https://www.npmjs.com/package/s-trimmer)
+[![NPM downloads](https://flat.badgen.net/npm/dm/s-trimmer)](https://www.npmjs.com/package/s-trimmer)
+[![NPM license](https://flat.badgen.net/npm/license/s-trimmer)](https://www.npmjs.com/package/s-trimmer)
+[![Codecov](https://flat.badgen.net/codecov/c/github/JB1905/s-trimmer)](https://codecov.io/gh/JB1905/s-trimmer)
+[![Travis](https://flat.badgen.net/travis/JB1905/s-trimmer)](https://travis-ci.com/JB1905/s-trimmer)
+[![Bundle size](https://flat.badgen.net/packagephobia/install/s-trimmer)](https://packagephobia.com/result?p=s-trimmer)
 
 ## About
 
