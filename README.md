@@ -5,7 +5,7 @@
 [![NPM license](https://img.shields.io/npm/l/s-trimmer?style=flat-square)](https://www.npmjs.com/package/s-trimmer)
 [![Codecov](https://img.shields.io/codecov/c/github/JB1905/s-trimmer?style=flat-square)](https://codecov.io/gh/JB1905/s-trimmer)
 [![Travis](https://img.shields.io/travis/com/JB1905/s-trimmer/main?style=flat-square)](https://travis-ci.com/JB1905/s-trimmer)
-[![Bundle size](https://img.shields.io/bundlephobia/min/s-trimmer?style=flat-square)](https://bundlephobia.com/result?p=s-trimmer)
+[![Bundle size](https://flat.badgen.net/packagephobia/install/s-trimmer)](https://packagephobia.com/result?p=s-trimmer)
 
 ## About
 
