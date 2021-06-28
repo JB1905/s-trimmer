@@ -1,11 +1,13 @@
-export const trimStart = (value: string) => value.replace(/^\s+/, '');
+const START_PATTERN = /^\s+/;
+export const trimStart = (value: string) => value.replace(START_PATTERN, '');
 export const trimLeft = trimStart;
 
-export const trimEnd = (value: string) => value.replace(/\s+$/, '');
+const END_PATTERN = /\s+$/
+export const trimEnd = (value: string) => value.replace(END_PATTERN, '');
 export const trimRight = trimEnd;
 
-export const trimBetween = (value: string) =>
-  value.replace(/(?<=\S+)\s+(?=\S+)/g, ' ');
+const CENTER_PATTERN = /(?<=\S+)\s+(?=\S+)/g
+export const trimBetween = (value: string) => value.replace(CENTER_PATTERN, ' ');
 export const trimCenter = trimBetween;
 
 const sTrimmer = (value: string) => trimBetween(trimEnd(trimStart(value)));
