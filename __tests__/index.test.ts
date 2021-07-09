@@ -1,4 +1,5 @@
 import sTrimmer, {
+  trim,
   trimStart,
   trimLeft,
   trimEnd,
