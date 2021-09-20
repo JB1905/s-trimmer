@@ -8,7 +8,7 @@ import sTrimmer, {
   trimCenter,
 } from '../src';
 
-describe('sTrimmer', () => {
+describe('sTrimmer/trim', () => {
   it.each([
     ['lorem  ipsum dolor  ', 'lorem ipsum dolor'],
     ['\n\rSed  tristique\t in libero  \n', 'Sed tristique in libero'],
