@@ -8,6 +8,31 @@ import sTrimmer, {
   trimCenter,
 } from '../src';
 
+// describe.each([
+//   {
+//     input: 'lorem  ipsum dolor  ',
+//     trim: 'lorem ipsum dolor',
+//     start: 'lorem  ipsum dolor  ',
+//     end: '',
+//     center: '',
+//   }
+//   ['lorem  ipsum dolor  ', 'lorem ipsum dolor'],
+//   ['\n\rSed  tristique\t in libero  \n', 'Sed tristique in libero'],
+//   [
+//     ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+//     'Vivamus in cursus enim, nec accumsan lectus.',
+//   ],
+// ])
+
+// const testCases = [
+//   ['lorem  ipsum dolor  ', 'lorem ipsum dolor'],
+//   ['\n\rSed  tristique\t in libero  \n', 'Sed tristique in libero'],
+//   [
+//     ' Vivamus in     cursus enim,  nec  accumsan lectus.         ',
+//     'Vivamus in cursus enim, nec accumsan lectus.',
+//   ],
+// ];
+
 describe('sTrimmer/trim', () => {
   it.each([
     ['lorem  ipsum dolor  ', 'lorem ipsum dolor'],
