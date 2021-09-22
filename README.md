@@ -112,7 +112,7 @@ trimCenter(value); // '    lorem ipsum dolor  '
 
 | Type   | Description           |
 | ------ | --------------------- |
-| string | value to be formatted |
+| string | Value to be formatted |
 
 ## License
 
