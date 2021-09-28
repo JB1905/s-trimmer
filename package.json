@@ -45,6 +45,7 @@
   "homepage": "https://github.com/JB1905/s-trimmer#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.9.4",
     "@typescript-eslint/parser": "^4.31.2",
     "cz-conventional-changelog": "3.3.0",
